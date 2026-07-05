@@ -1,0 +1,2 @@
+$ curl -X POST http://localhost:3060/api/secondchance/auth/login -H "Content-Type: application/json" -d '{"email":"alex@example.com","password":"SecurePassword123"}'
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZXhAZXhhbXBsZS5jb20iLCJuYW1lIjoiQWxleCBUZXN0ZXIiLCJpYXQiOjE3ODMyODAyMjQsImV4cCI6MTc4MzI4NzQyNH0.5kZHxXZmskgnh-dF0ZmZ8cA7ufdKFRiU1wtpSDNODp8","userName":"Alex Tester","userEmail":"alex@example.com"}

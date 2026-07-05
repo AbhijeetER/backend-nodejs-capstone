@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "64b0f9c2d14a5b28c89481a1",
+    "id": "1",
+    "name": "Solid Oak Dining Set",
+    "category": "Furniture",
+    "condition": "Like New",
+    "age_days": 730,
+    "age_years": 2,
+    "description": "Beautiful six-seater family table layout.",
+    "image": "/images/oak_table.jpg"
+  }
+]

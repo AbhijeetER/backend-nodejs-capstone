@@ -1,0 +1,58 @@
+$ curl.exe -X GET "http://localhost:3060/api/secondchance/search?category=Kitchen&condition=New"[
+    {
+        "_id": "6a4a9fca1ee6d116b9d3c44d",
+        "id": "875",
+        "name": "Lamp",
+        "category": "Kitchen",
+        "condition": "New",
+        "posted_by": "26872",
+        "zipcode": "94805",
+        "date_added": 1693267200,
+        "age_days": 400,
+        "age_years": 1.1,
+        "description": "A charming lamp that's been lighting up my reading nook...",
+        "image": "/images/lamp.jpeg",
+        "comments": [
+            {
+                "author": "Olivia Parker",
+                "comment": "Wow, this looks great! I'm interested."
+            },
+            {
+                "author": "David Thompson",
+                "comment": "I'll take it if it's still up for grabs."
+            },
+            {
+                "author": "Emily Rodriguez",
+                "comment": "This is exactly what I've been looking for. Count me in!"
+            },
+            {
+                "author": "Daniel Evans",
+                "comment": "Seems like a good deal. Let's discuss further."
+            }
+        ]
+    },
+    {
+        "_id": "6a4a9fca1ee6d116b9d3c456",
+        "id": "424",
+        "name": "Dining Table",
+        "category": "Kitchen",
+        "condition": "New",
+        "posted_by": "23789",
+        "zipcode": "94102",
+        "date_added": 1684195200,
+        "age_days": 800,
+        "age_years": 2.19,
+        "description": "This dining table has been the centerpiece of many family gatherings...",
+        "image": "/images/dining-table.jpeg",
+        "comments": [
+            {
+                "author": "Sarah Jones",
+                "comment": "Love this table! Perfect size for my needs. Considering purchasing."
+            },
+            {
+                "author": "Matthew Brown",
+                "comment": "Beautiful craftsmanship! Adding to cart!"
+            }
+        ]
+    }
+]
