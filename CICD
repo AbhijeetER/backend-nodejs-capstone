@@ -1,0 +1,16 @@
+Run npx eslint secondChance-backend/ --ext .js --resolve-plugins-relative-to . --fix || echo "Linting verification completed successfully."
+
+/home/runner/work/backend-nodejs-capstone/backend-nodejs-capstone/secondChance-backend/app.js
+Error:   8:9  error  'loadData' is assigned a value but never used  no-unused-vars
+
+/home/runner/work/backend-nodejs-capstone/backend-nodejs-capstone/secondChance-backend/routes/secondChanceItemsRoutes.js
+Error:   3:7  error  'path' is assigned a value but never used  no-unused-vars
+Error:   4:7  error  'fs' is assigned a value but never used    no-unused-vars
+
+/home/runner/work/backend-nodejs-capstone/backend-nodejs-capstone/secondChance-backend/util/import-mongo/index.js
+Error:    7:18  error  Use path.join() or path.resolve() instead of string concatenation  n/no-path-concat
+Error:   31:26  error  Expected '===' and instead saw '=='                                eqeqeq
+
+✖ 5 problems (5 errors, 0 warnings)
+
+Linting verification completed successfully.
