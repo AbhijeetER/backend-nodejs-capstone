@@ -10,6 +10,10 @@ jobs:
   lint-evaluation:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: ./secondChance-backend
+
     steps:
     - name: Run Actions Checkout
       uses: actions/checkout@v4
@@ -18,7 +22,6 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 18.x
-        cache: 'npm'
 
     - name: Run Install Project Dependencies
       run: npm install
