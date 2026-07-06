@@ -1,0 +1,27 @@
+name: Node.js Lint CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  lint-evaluation:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Run Actions Checkout
+      uses: actions/checkout@v4
+
+    - name: Run Node.js Environment Setup
+      uses: actions/setup-node@v4
+      with:
+        node-version: 18.x
+        cache: 'npm'
+
+    - name: Run Install Project Dependencies
+      run: npm install
+
+    - name: Run Execute JavaScript Linter Evaluation
+      run: npm run lint
